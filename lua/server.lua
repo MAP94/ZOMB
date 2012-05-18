@@ -249,7 +249,7 @@ function NormalizeY(x, y)
 	return y*l
 end
 function pack(...)
-  return arg
+  return {...}
 end
 function Distance(x1, y1, x2, y2)
     if (x1 == nil or y1 == nil or x2 == nil or y2 == nil) then
